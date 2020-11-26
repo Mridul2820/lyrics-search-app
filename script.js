@@ -12,8 +12,6 @@ async function searchSongs(term) {
     const data = await res.json();
 
     showData(data);
-
-    console.log(data);
 }
 
 // Show Song List in DOM
