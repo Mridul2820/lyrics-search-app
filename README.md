@@ -1,4 +1,6 @@
 # Lyrics Search App
 
-### Link of the [App](https://mridul2820.github.io/lyrics-search-app/.)
+### [App](https://mridul2820.github.io/lyrics-search-app/.) in Github Pages
+
+### [App](https://get-lyrics-app.netlify.app/) in Netlify
 
