@@ -250,3 +250,49 @@ ul.songs {
 .no-lyrics {
     color: red;
 }
+
+
+// Footer
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0  20px 0;
+
+    .footer-content {
+        .name {
+            text-align: center;
+        }
+    }
+
+    .social {
+        margin-top: 10px;
+
+        a {
+            text-decoration: none;
+            font-size: 25px;
+            margin: 0 5px;
+            text-align: center;
+
+            i {
+                transition: .5s all;
+            }
+            
+
+            i:hover {
+                transform: scale(1.2);
+            }
+
+            i.fa-instagram-square {
+                color: #e4405f;
+            }
+
+            i.fa-twitter-square {
+                color: #55acee;
+            }
+
+            i.fa-github-square {
+                color: #131418;
+            }
+        }
+    }
+}

@@ -284,3 +284,50 @@ ul.songs li .song-title {
 .no-lyrics {
   color: red;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0  20px 0;
+}
+
+footer .footer-content .name {
+  text-align: center;
+}
+
+footer .social {
+  margin-top: 10px;
+}
+
+footer .social a {
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+footer .social a i {
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+footer .social a i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer .social a i.fa-instagram-square {
+  color: #e4405f;
+}
+
+footer .social a i.fa-twitter-square {
+  color: #55acee;
+}
+
+footer .social a i.fa-github-square {
+  color: #131418;
+}
